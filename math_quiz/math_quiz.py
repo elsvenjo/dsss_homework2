@@ -26,7 +26,6 @@ def generate_problem(integer1, integer2, operator):
     Generate a mathematical problem using two integers and an operator,
     and return both the problem as a string and the correct solution as an integer.
     """
-
     problem = f"{integer1} {operator} {integer2}"
     if operator == '+':
         answer = integer1 + integer2
